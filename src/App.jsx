@@ -1,52 +1,9 @@
 import "./App.css";
+import { Content } from "./Content";
+import { Footer } from "./Footer";
+import { Header } from "./Header";
 
-function Header() {
-  <header>
-    <a href="#">Home</a> | <a href="#posts-index">All posts</a> | <a href="#posts-new">New post</a>
-  </header>;
-}
-
-function MoviesNew() {
-  <div id="movies-new">
-    <h1>New post</h1>
-    <div>
-      Title: <input type="text" />
-    </div>
-    <div>
-      Genre: <input type="text" />
-    </div>
-    <div>
-      Image: <input type="text" />
-    </div>
-    <div>
-      <button>Add More Movies</button>
-    </div>
-  </div>;
-}
-
-function MoviesIndex() {
-  <div id="movies-index">
-    <h1>All Movies</h1>
-  </div>;
-}
-
-function Footer() {
-  <div>
-    <footer>
-      <p>Copyright 2023</p>
-    </footer>
-  </div>;
-}
-
-function Content() {
-  return (
-    <div>
-      <MoviesNew />
-      <MoviesIndex movies={movies} />
-    </div>
-  );
-}
-
+//Cleaned out other components
 function App() {
   return (
     <div>
