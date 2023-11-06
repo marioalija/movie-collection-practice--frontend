@@ -10,10 +10,10 @@ export function MoviesIndex(props) {
           <div key={movie.id} className="movie">
             <p>-{movie.id}-</p>
             <h2>{movie.title}</h2>
-            <h2>{movie.genre}</h2>
             <img src={movie.image} alt="" />
+            <h3>{movie.body}</h3>
             <div>
-              <button>More pictures</button>
+              <button>More details</button>
             </div>
           </div>
         ))}

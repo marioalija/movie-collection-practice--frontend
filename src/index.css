@@ -1,7 +1,86 @@
-#posts-index img {
-  width: 300px;
+body {
+  margin: 0;
+  font-family: 'MedievalSharp', cursive;
+  background-image: url("https://blog.empuls.io/content/images/2022/11/workplace-movies.webp");
 }
+header a{
+  color:beige;
+}
+header {
+  padding: 25px;
+  font-size: 33px;
+}
+
+header a:hover{
+  background-color:rgb(109, 216, 237);
+  border-radius: .2em;
+}
+
+.title {
+  color: beige;
+  font-size: large;
+}
+
+.title {
+  padding: 3px;
+}
+h1 {
+  color: beige;
+}
+
+h1:hover{
+  background-color:rgb(109, 216, 237);
+  border-radius: 20em;
+}
+
+h2 {
+  color: beige;
+}
+
+h2:hover{
+  background-color: rgb(208, 173, 31);
+  border-radius: 0.1em;
+}
+
+h3 {
+  color: beige;
+}
+button {
+  color: rgb(229, 239, 235);
+  padding: 10px;
+  font-size:medium;
+  background-color: rgb(49, 191, 227);
+}
+
+button:hover {
+  background-color: rgb(1, 13, 17);
+}
+.movies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.movie img{
+  width: 100%;
+  height: 500px;
+  object-fit:cover;
+}
+
 
 html {
   scroll-behavior: smooth;
+}
+
+footer {
+  color: aliceblue;
+}
+
+p {
+  color: aliceblue;
+}
+
+.contact {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
 }
