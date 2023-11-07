@@ -13,7 +13,9 @@ export function MoviesIndex(props) {
             <img src={movie.image} alt="" />
             <h3>{movie.body}</h3>
             <div>
-              <button>More details</button>
+              <a href="https://www.moviefone.com/movies/" target="_blank">
+                <button>More details</button>
+              </a>
             </div>
           </div>
         ))}
